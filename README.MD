@@ -21,10 +21,6 @@
   `useState`에 전달되는 첫 번째 인자는 상태의 초기 값입니다. 이 값은 컴포넌트가 처음 렌더링될 때 사용됩니다.
 
 
-### ✅ 기본 사용법
-
-```jsx
-const [state, setState] = useState(initialValue)
 
 
 
