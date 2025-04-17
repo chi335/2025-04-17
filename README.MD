@@ -13,3 +13,14 @@
 
 ```jsx
 const [state, setState] = useState(initialValue)
+
+### useState 관련 용어
+
+- **state**: 현재 상태 값  
+  `useState`로 관리되는 상태 값입니다. 이 값은 컴포넌트에서 언제든지 접근할 수 있습니다.
+
+- **setState**: 상태를 변경하는 함수  
+  `setState` 함수는 상태 값을 업데이트하는 데 사용됩니다. 상태 변경 시 컴포넌트가 리렌더링됩니다.
+
+- **initialValue**: 상태의 초기 값  
+  `useState`에 전달되는 첫 번째 인자는 상태의 초기 값입니다. 이 값은 컴포넌트가 처음 렌더링될 때 사용됩니다.
