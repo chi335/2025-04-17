@@ -9,13 +9,6 @@
 - 컴포넌트가 렌더링될 때마다 상태를 유지합니다.
 - 변수 각각에 대한 `set` 함수가 따로 존재합니다.
 
-### ✅ 기본 사용법
-
-```jsx
-const [state, setState] = useState(initialValue)
-
-
-
 ### useState 관련 용어
 
 - **state**: 현재 상태 값  
@@ -26,3 +19,12 @@ const [state, setState] = useState(initialValue)
 
 - **initialValue**: 상태의 초기 값  
   `useState`에 전달되는 첫 번째 인자는 상태의 초기 값입니다. 이 값은 컴포넌트가 처음 렌더링될 때 사용됩니다.
+
+
+### ✅ 기본 사용법
+
+```jsx
+const [state, setState] = useState(initialValue)
+
+
+
