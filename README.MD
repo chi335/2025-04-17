@@ -117,6 +117,7 @@ const memoizedValue = useMemo(
   [a, b]
 );
 ---
+
 ### useMemo()
 
 `useMemo`는 계산 비용이 큰 연산의 결과를 메모이제이션하여 성능을 최적화하는 Hook입니다.
